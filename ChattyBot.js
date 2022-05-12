@@ -19,3 +19,20 @@ let remainder7 = input();
 let yourAge = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
 
 console.log("Your age is " + yourAge + "; that's a good time to start programming!");
+
+console.log("Now I will prove to you that I can count to any number you want.");
+
+// read a number and count to it here
+let countTo = input();
+
+function counting(num) {
+  let n = 0;
+  while (n <= num) {
+    n++;
+    console.log(String(n) + " !");
+  }
+}
+
+counting(countTo);
+
+console.log("Completed, have a nice day!");
